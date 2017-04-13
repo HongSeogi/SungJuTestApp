@@ -1,0 +1,10 @@
+applications:
+- path: output/webApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: SungJuTestApp
+  host: SungJuTestApp
+  disk_quota: 1024M
+  services:
+  - SungJuTestApp-personality_insights
